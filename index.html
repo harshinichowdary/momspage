@@ -13,13 +13,24 @@
     <section class="page-header">
       <h1 class="project-name">Momspage</h1>
       <h2 class="project-tagline">This is for you mom :)</h2>
-      <div style="background-color:blue;color:red;padding:50px;">
+      <div style="background-color:blue;color:white;padding:50px;">
       <p style=font-family:verdana;font size:300%;> life may give my gifts to a person but the most precious and greatest gift will definetly be a mother</p>
       <p> This is my first web site developed and i start it for you mom as u are my first and best choice all time :)* </p>
     </div>
     <hr>
     <hr>
-    <hr>
+    <hr> 
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+    Your browser does not support the HTML5 canvas tag.</canvas>
+
+    <script>
+     var c = document.getElementById("myCanvas");
+     var ctx = c.getContext("2d");
+     ctx.filestyle="#FF0000";
+     ctx.fillRect(0,0,150,75);
+     ctx.font = "30px Arial";
+     ctx.fillText("Hie bujji",10,50);
+    </script>
       <a href="https://github.com/harshinichowdary/momspage" class="btn">View on GitHub</a>
       <a href="https://github.com/harshinichowdary/momspage/zipball/master" class="btn">Download .zip</a>
       <a href="https://github.com/harshinichowdary/momspage/tarball/master" class="btn">Download .tar.gz</a>
